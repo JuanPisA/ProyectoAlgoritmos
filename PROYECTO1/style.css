@@ -1,0 +1,63 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    color: white;
+    list-style: none;
+}
+header{
+    height: 10vh;
+}
+header nav{
+    display: flex;
+}
+header nav ul {
+    display: flex;
+    width: 100%;
+}
+header nav ul li{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+
+}
+header nav ul li:hover{
+    color: black;
+   background-color: white;
+}
+.yo{
+    display: flex;
+    justify-content: center;
+}
+.fotoYo{
+    width: 30vw;
+}
+.inicio{
+    height: 80vh;
+}
+.presentacionTitulo{
+    display: flex;
+    justify-content: center;
+}
+.presentacionMia{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    height: 10vh;
+}
+
+footer ul {
+    display: flex;
+    width: 100%;
+}
+footer ul li{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+
+}
+footer ul li:hover{
+    color: black;
+   background-color: white;
+}
